@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soterio</title>
+    <link rel="stylesheet" href="Styles.css" />
+  </head>
+  <body>
+    <h1>SORTEIO</h1>
+    <h2 class="sortear">Sortear um Número</h2>
+    <div class="card">
+      <img src="./assets/div.png" class="sorteado" />
+      <div class="conteudo">
+        <div class="inputs">
+          <input placeholder="ENTRE" class="input-min" type="number" />
+          <input placeholder="E" class="input-max" type="number" />
+        </div>
+        <button onclick="generateNumber()" class="btn-sortear">Sortear</button>
+      </div>
+    </div>
+    <h2 class="numerosorteado">
+      Numero Sorteado: <span id="resultado"></span>
+    </h2>
+  </body>
+  <script src="./scripts.js"></script>
+</html>
