@@ -103,3 +103,53 @@ background-color: #fd0000;
 #resultado {
   margin-left: 8px; /* pode ajustar o valor */
 }
+
+/* Ajustes para telas menores que 768px (mobile/tablet) */
+@media screen and (max-width: 920px) {
+  
+  h1 {
+    font-size: 90px; /* reduz o tamanho do título */
+    -webkit-text-stroke: 1.5px red; /* ajusta o contorno */
+  }
+
+  .card .sorteado {
+    width: 90%; /* ocupa quase toda a tela */
+    margin-left: 20px;
+    height: 200px;
+    
+  }
+
+  .conteudo {
+    gap: 20px; /* reduz o espaço entre elementos */
+    width: 90%; /* ocupa quase toda a largura do card */
+  }
+
+  .inputs {
+    flex-direction: column; /* coloca os inputs um embaixo do outro */
+    gap: 15px; /* reduz o espaçamento */
+  }
+
+  .inputs input {
+    width: 90%; /* ocupa toda a largura disponível */
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  .btn-sortear {
+    padding: 12px 50px; /* reduz o tamanho do botão */
+    font-size: 18px;
+  }
+
+  .numerosorteado {
+    flex-direction: column; /* números empilhados no mobile */
+    padding: 10px 20px;
+    gap: 5px;
+    font-size:15px;
+  }
+
+  #resultado {
+    margin-left: 0; /* remove margem lateral para mobile */
+    text-align: center; /* centraliza o resultado */
+  }
+  
+}
