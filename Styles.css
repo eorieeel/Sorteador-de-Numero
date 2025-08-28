@@ -60,7 +60,7 @@ h1 {
 
 .inputs input {
   padding: 15px 10px;
-  border-radius: 6px;
+  border-radius: 10px;
   border: none;
   outline: none;
   font-weight: bold;
@@ -81,7 +81,7 @@ h1 {
   font-weight: bold;
   cursor: pointer;
   transition: 0.2s;
-  width: 100;
+
 
 }
 
@@ -90,10 +90,14 @@ h1 {
 }
 
 .numerosorteado {
-  color: #ffc725;
+background-color: #fd0000;
+ border-radius: 10px;
+  color: #ffffff;
   display: flex;
- margin-top: 5px;
+  margin-top: 5px;
   gap: 1px;
+    padding: 15px 50px;
+
 
 }
 #resultado {
